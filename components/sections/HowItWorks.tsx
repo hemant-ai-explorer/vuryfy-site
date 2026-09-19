@@ -32,7 +32,7 @@ export function HowItWorks() {
       <div className="mt-14 grid gap-8 sm:grid-cols-3">
         {steps.map((s) => (
           <div key={s.number} className="relative">
-            <div className="flex h-11 w-11 items-center justify-center rounded-full bg-slate-900 text-base font-semibold text-white">
+            <div className="mx-auto flex h-11 w-11 items-center justify-center rounded-full bg-slate-900 text-base font-semibold text-white">
               {s.number}
             </div>
             <h3 className="mt-5 text-lg font-semibold text-slate-900">

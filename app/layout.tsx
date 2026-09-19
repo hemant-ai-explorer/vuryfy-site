@@ -14,7 +14,7 @@ import { SITE_NAME, SITE_TAGLINE } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: `${SITE_NAME} — ${SITE_TAGLINE}`,
   description:
-    "Vuryfy checks text claims, links, QR codes, images, audio, and video with evidence-backed verdicts — in the app or straight from WhatsApp.",
+    "Vuryfy checks text claims, links, QR codes, images, audio, and video with evidence-backed verdicts.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -63,19 +63,6 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-lg font-semibold text-slate-900">
-            WhatsApp submissions
-          </h2>
-          <p className="mt-2">
-            If you forward content to Vuryfy on WhatsApp, we use it only to
-            match it to your linked account and hold it briefly until you
-            open the app to choose how it should be checked. WhatsApp is a
-            submission channel, not a reply channel — your result is never
-            sent back over WhatsApp, only shown in the app.
-          </p>
-        </section>
-
-        <section>
           <h2 className="text-lg font-semibold text-slate-900">Questions</h2>
           <p className="mt-2">
             If you have questions about how your data is handled, reach us

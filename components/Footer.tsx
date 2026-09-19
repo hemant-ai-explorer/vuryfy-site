@@ -11,7 +11,7 @@ export function Footer() {
             <Logo />
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-slate-600">
               Evidence-backed fact-checking for text, links, QR codes, images,
-              audio, and video — in the app or straight from WhatsApp.
+              audio, and video.
             </p>
           </div>
 

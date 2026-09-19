@@ -24,7 +24,7 @@ export const PLANS: Plan[] = [
     ongoing: "30 Quick Checks + 2 Deep Investigations every month after",
     features: [
       "All six verification types",
-      "Submit from the app or WhatsApp",
+      "Submit from the app",
       "Evidence-backed verdicts",
       "All 9 supported languages",
     ],

@@ -14,10 +14,6 @@ const faqs = [
     a: "Quick Check gives you a fast, evidence-backed read in seconds. Deep Investigation runs a more thorough, multi-source review — better suited to a claim you're about to act on or share widely.",
   },
   {
-    q: "Can I submit things through WhatsApp instead of the app?",
-    a: "Yes. Link your WhatsApp to your account once from the app, then forward text, links, photos, voice notes, or video straight to Vuryfy. You still choose Quick Check or Deep Investigation — and are only charged — from inside the app.",
-  },
-  {
     q: "What happens if I use up my checks for the month?",
     a: "Your allowance renews each month and doesn't carry over unused checks. If you regularly need more, the Power plan gives you a larger monthly allowance.",
   },
@@ -43,9 +39,8 @@ export default function PricingPage() {
           Simple, monthly pricing
         </h1>
         <p className="mx-auto mt-4 max-w-xl text-base text-slate-600">
-          Every plan includes all six verification types, WhatsApp
-          submission, evidence-backed verdicts, and all 9 supported
-          languages.
+          Every plan includes all six verification types, evidence-backed
+          verdicts, and all 9 supported languages.
         </p>
       </section>
 

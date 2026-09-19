@@ -22,7 +22,6 @@ export function Hero() {
         <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-slate-600">
           Vuryfy checks text claims, links, QR codes, images, audio, and
           video — and gives you an evidence-backed verdict, not a guess.
-          Send it in from the app, or just forward it on WhatsApp.
         </p>
 
         <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">

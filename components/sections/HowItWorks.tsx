@@ -2,7 +2,7 @@ const steps = [
   {
     number: "1",
     title: "Send it in",
-    body: "Type a claim, paste a link, or upload a photo, voice note, or video in the app — or just forward it to Vuryfy on WhatsApp.",
+    body: "Type a claim, paste a link, or upload a photo, voice note, or video in the app.",
   },
   {
     number: "2",

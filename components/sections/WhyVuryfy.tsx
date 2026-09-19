@@ -30,7 +30,7 @@ export function WhyVuryfy() {
         <div className="mt-14 grid gap-8 sm:grid-cols-2">
           {items.map((it) => (
             <div key={it.title} className="flex gap-4">
-              <span className="mt-1 h-2 w-2 shrink-0 rounded-full bg-indigo-600" />
+              <span className="mt-1 h-2 w-2 shrink-0 rounded-full bg-slate-900" />
               <div>
                 <h3 className="text-base font-semibold text-slate-900">
                   {it.title}

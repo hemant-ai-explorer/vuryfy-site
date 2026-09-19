@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 
 function IconWrap({ children }: { children: ReactNode }) {
   return (
-    <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
+    <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-slate-100 text-slate-900">
       {children}
     </div>
   );

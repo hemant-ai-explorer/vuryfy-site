@@ -69,7 +69,7 @@ export default function TermsPage() {
           </h2>
           <p className="mt-2">
             Paid plans and their monthly allowances are described on our{" "}
-            <a href="/pricing" className="font-medium text-indigo-600 hover:text-indigo-700">
+            <a href="/pricing" className="font-medium text-slate-900 hover:text-slate-700">
               pricing page
             </a>
             . Billing is not yet active while the product is in development;
@@ -83,7 +83,7 @@ export default function TermsPage() {
             Reach us at{" "}
             <a
               href={`mailto:${CONTACT_EMAIL}`}
-              className="font-medium text-indigo-600 hover:text-indigo-700"
+              className="font-medium text-slate-900 hover:text-slate-700"
             >
               {CONTACT_EMAIL}
             </a>{" "}

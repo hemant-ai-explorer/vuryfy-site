@@ -37,7 +37,7 @@ export function Nav() {
           </a>
           <a
             href={APP_URL}
-            className="rounded-full bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm shadow-indigo-600/20 transition hover:bg-indigo-700"
+            className="rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-sm shadow-slate-900/20 transition hover:bg-slate-800"
           >
             Get started free
           </a>

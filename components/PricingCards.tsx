@@ -10,19 +10,19 @@ export function PricingCards({ compact = false }: { compact?: boolean }) {
             key={plan.name}
             className={`relative rounded-3xl border p-8 ${
               plan.highlighted
-                ? "border-indigo-600 bg-indigo-600 text-white shadow-lg shadow-indigo-600/20"
+                ? "border-slate-900 bg-slate-900 text-white shadow-lg shadow-slate-900/20"
                 : "border-slate-200 bg-white text-slate-900 shadow-sm"
             }`}
           >
             {plan.highlighted && (
-              <span className="absolute -top-3 left-8 rounded-full bg-white px-3 py-1 text-xs font-semibold text-indigo-700">
+              <span className="absolute -top-3 left-8 rounded-full bg-white px-3 py-1 text-xs font-semibold text-slate-900">
                 Most popular
               </span>
             )}
 
             <h3
               className={`text-sm font-semibold uppercase tracking-wide ${
-                plan.highlighted ? "text-indigo-100" : "text-indigo-600"
+                plan.highlighted ? "text-slate-300" : "text-slate-900"
               }`}
             >
               {plan.name}
@@ -32,7 +32,7 @@ export function PricingCards({ compact = false }: { compact?: boolean }) {
               <span className="text-4xl font-bold">{plan.price}</span>
               <span
                 className={
-                  plan.highlighted ? "text-indigo-100" : "text-slate-500"
+                  plan.highlighted ? "text-slate-300" : "text-slate-500"
                 }
               >
                 {plan.period}
@@ -41,7 +41,7 @@ export function PricingCards({ compact = false }: { compact?: boolean }) {
 
             <p
               className={`mt-2 text-sm ${
-                plan.highlighted ? "text-indigo-100" : "text-slate-600"
+                plan.highlighted ? "text-slate-300" : "text-slate-600"
               }`}
             >
               {plan.tagline}
@@ -49,13 +49,13 @@ export function PricingCards({ compact = false }: { compact?: boolean }) {
 
             <div
               className={`mt-6 space-y-1 rounded-xl p-4 text-sm ${
-                plan.highlighted ? "bg-indigo-500/40" : "bg-slate-50"
+                plan.highlighted ? "bg-white/10" : "bg-slate-50"
               }`}
             >
               <p className="font-medium">{plan.firstMonth}</p>
               <p
                 className={
-                  plan.highlighted ? "text-indigo-100" : "text-slate-600"
+                  plan.highlighted ? "text-slate-300" : "text-slate-600"
                 }
               >
                 Then {plan.ongoing}
@@ -76,7 +76,7 @@ export function PricingCards({ compact = false }: { compact?: boolean }) {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       className={`mt-0.5 shrink-0 ${
-                        plan.highlighted ? "text-indigo-100" : "text-emerald-600"
+                        plan.highlighted ? "text-slate-300" : "text-emerald-600"
                       }`}
                       aria-hidden="true"
                     >
@@ -92,8 +92,8 @@ export function PricingCards({ compact = false }: { compact?: boolean }) {
               href={APP_URL}
               className={`mt-8 block rounded-full px-5 py-3 text-center text-sm font-semibold transition ${
                 plan.highlighted
-                  ? "bg-white text-indigo-700 hover:bg-indigo-50"
-                  : "bg-indigo-600 text-white hover:bg-indigo-700"
+                  ? "bg-white text-slate-900 hover:bg-slate-100"
+                  : "bg-slate-900 text-white hover:bg-slate-800"
               }`}
             >
               Get started

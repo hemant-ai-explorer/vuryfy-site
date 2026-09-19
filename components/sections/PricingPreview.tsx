@@ -20,7 +20,7 @@ export function PricingPreview() {
       <div className="mt-8 text-center">
         <Link
           href="/pricing"
-          className="text-sm font-semibold text-indigo-600 hover:text-indigo-700"
+          className="text-sm font-semibold text-slate-900 hover:text-slate-700"
         >
           Compare full plan details →
         </Link>

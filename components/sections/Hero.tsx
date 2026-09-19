@@ -7,11 +7,11 @@ export function Hero() {
         aria-hidden="true"
         className="pointer-events-none absolute inset-x-0 -top-40 -z-10 flex justify-center blur-3xl"
       >
-        <div className="h-72 w-[36rem] rounded-full bg-gradient-to-tr from-indigo-200 via-sky-200 to-emerald-200 opacity-60" />
+        <div className="h-72 w-[36rem] rounded-full bg-gradient-to-tr from-slate-300 via-slate-200 to-emerald-200 opacity-60" />
       </div>
 
       <div className="mx-auto max-w-6xl px-4 pb-20 pt-16 text-center sm:px-6 sm:pt-24">
-        <p className="inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-xs font-medium text-indigo-700">
+        <p className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-slate-100 px-3 py-1 text-xs font-medium text-slate-700">
           Digital trust, made simple
         </p>
 
@@ -28,7 +28,7 @@ export function Hero() {
         <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <a
             href={APP_URL}
-            className="w-full rounded-full bg-indigo-600 px-6 py-3 text-sm font-semibold text-white shadow-sm shadow-indigo-600/25 transition hover:bg-indigo-700 sm:w-auto"
+            className="w-full rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-sm shadow-slate-900/25 transition hover:bg-slate-800 sm:w-auto"
           >
             Get started free
           </a>

@@ -15,7 +15,7 @@ export function CTASection() {
           href={APP_URL}
           className="mt-8 inline-block rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-100"
         >
-          Get started free
+          Sign Up
         </a>
       </div>
     </section>

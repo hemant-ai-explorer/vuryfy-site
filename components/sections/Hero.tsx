@@ -30,7 +30,7 @@ export function Hero() {
             href={APP_URL}
             className="w-full rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-sm shadow-slate-900/25 transition hover:bg-slate-800 sm:w-auto"
           >
-            Get started free
+            Sign Up
           </a>
           <a
             href="/pricing"
@@ -39,12 +39,6 @@ export function Hero() {
             See pricing
           </a>
         </div>
-
-        <p className="mt-6 text-sm text-slate-500">
-          A payment method is required to create your account. Nothing is
-          checked until you choose Quick Check or Deep Investigation
-          yourself.
-        </p>
       </div>
     </section>
   );

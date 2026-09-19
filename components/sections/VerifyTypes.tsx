@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 
 function IconWrap({ children }: { children: ReactNode }) {
   return (
-    <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-slate-900 text-white">
+    <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-white/10 text-white">
       {children}
     </div>
   );
@@ -104,13 +104,13 @@ export function VerifyTypes() {
           {types.map((t) => (
             <div
               key={t.title}
-              className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+              className="rounded-2xl border border-slate-900 bg-slate-900 p-6 shadow-sm"
             >
               <IconWrap>{t.icon}</IconWrap>
-              <h3 className="mt-4 text-base font-semibold text-slate-900">
+              <h3 className="mt-4 text-base font-semibold text-white">
                 {t.title}
               </h3>
-              <p className="mt-2 text-sm leading-relaxed text-slate-600">
+              <p className="mt-2 text-sm leading-relaxed text-slate-300">
                 {t.body}
               </p>
             </div>

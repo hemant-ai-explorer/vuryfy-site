@@ -1,7 +1,7 @@
 const points = [
   "Link your WhatsApp to your Vuryfy account once, from the app.",
   "Forward any text, link, photo, voice note, or video to Vuryfy.",
-  "Open the app to pick Quick Check or Deep Investigation — nothing runs, and nothing is charged, until you choose.",
+  "Open the app to pick Quick Check or Deep Investigation — nothing runs until you choose.",
 ];
 
 export function WhatsAppSection() {

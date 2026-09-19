@@ -47,4 +47,4 @@ export const PLANS: Plan[] = [
 ];
 
 export const PLAN_NOTE =
-  "Allowances renew each month and don't roll over. Billing is being finalized — creating an account is free, and you'll pick your plan from inside the app.";
+  "Allowances renew each month and don't roll over. A payment method is required to create your account, including to use your free Quick Checks in month one.";

@@ -30,8 +30,8 @@ const faqs = [
     a: "English, Hindi, Bengali, Gujarati, Kannada, Malayalam, Marathi, Tamil, and Telugu — for both submitting a check and reading the result.",
   },
   {
-    q: "Can I pay for a plan right now?",
-    a: "Account creation is free today. In-app billing is being finalized, so plan selection and payment will open up shortly inside the app — the pricing above reflects what each plan will include.",
+    q: "Do I need to add a payment method to sign up?",
+    a: "Yes — a payment method is required when you create your account, including to use your 5 free Quick Checks in your first month.",
   },
 ];
 

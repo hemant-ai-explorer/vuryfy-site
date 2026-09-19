@@ -41,8 +41,9 @@ export function Hero() {
         </div>
 
         <p className="mt-6 text-sm text-slate-500">
-          No credit card needed to sign up. Nothing is checked, and nothing
-          is charged, until you ask for it.
+          A payment method is required to create your account. Nothing is
+          checked until you choose Quick Check or Deep Investigation
+          yourself.
         </p>
       </div>
     </section>

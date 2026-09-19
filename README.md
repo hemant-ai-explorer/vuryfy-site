@@ -41,8 +41,11 @@ Open http://localhost:3000.
 3. **Replace the placeholder Privacy/Terms pages** with real,
    legally-reviewed versions before public launch — they're explicitly
    marked as non-final on the pages themselves.
-4. **Wire up real billing** in the app, then update the pricing page's copy
-   and FAQ answer about payment once checkout actually exists.
+4. **Confirm the in-app signup flow actually collects a payment method.**
+   This site's copy states that a payment method is required at signup,
+   including to use the free Quick Checks in month one — keep `lib/plans.ts`'s
+   `PLAN_NOTE`, the pricing FAQ, and the homepage hero text in sync if that
+   requirement ever changes.
 
 ## Deploying
 

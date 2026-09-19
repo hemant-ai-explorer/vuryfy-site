@@ -4,13 +4,16 @@
 // project line" rule) — this site only ever links out to it, never embeds
 // or proxies it.
 //
-// Payments/subscriptions are NOT wired up in the app yet (explicit,
-// deliberate deferral — "Payment and Subscription we will do when we have
-// added all the features"). So every "Get started" / "Choose this plan"
-// button on this site links to account creation in the app, never to a
-// checkout — there is no checkout to link to yet. Update APP_URL to
-// https://app.vuryfy.com (or similar) once the app itself moves off the
-// vuryfy.vercel.app Vercel domain and onto a subdomain of the real domain.
+// A payment method is required at signup — including to use the free
+// Quick Checks in month one (explicit product decision, confirmed Sept 19,
+// 2026 — this superseded the earlier "billing not wired up yet" plan
+// noted in architecture-decisions.md's Sprint 1 entry). Every "Get
+// started" / "Choose this plan" button on this site still links to
+// account creation in the app rather than a separate checkout page, since
+// payment details are collected as part of that same signup flow. Update
+// APP_URL to https://app.vuryfy.com (or similar) once the app itself moves
+// off the vuryfy.vercel.app Vercel domain and onto a subdomain of the real
+// domain.
 export const APP_URL = "https://vuryfy.vercel.app";
 
 export const SITE_NAME = "Vuryfy";

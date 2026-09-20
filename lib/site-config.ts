@@ -20,8 +20,8 @@ export const APP_URL = "https://app.vuryfy.com";
 export const SITE_NAME = "Vuryfy";
 export const SITE_TAGLINE = "Verify anything before you believe it.";
 
-// Placeholder — point this at a real, monitored inbox before launch.
-export const CONTACT_EMAIL = "hello@vuryfy.com";
+// A real, monitored inbox (Zoho Mail, free plan) — updated Sept 20, 2026.
+export const CONTACT_EMAIL = "info@vuryfy.com";
 
 export const SUPPORTED_LANGUAGES = [
   "English",

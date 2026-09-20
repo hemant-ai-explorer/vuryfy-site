@@ -10,11 +10,12 @@
 // noted in architecture-decisions.md's Sprint 1 entry). Every "Get
 // started" / "Choose this plan" button on this site still links to
 // account creation in the app rather than a separate checkout page, since
-// payment details are collected as part of that same signup flow. Update
-// APP_URL to https://app.vuryfy.com (or similar) once the app itself moves
-// off the vuryfy.vercel.app Vercel domain and onto a subdomain of the real
-// domain.
-export const APP_URL = "https://vuryfy.vercel.app";
+// payment details are collected as part of that same signup flow.
+//
+// Updated Sept 20, 2026: the app now lives at app.vuryfy.com (a Vercel
+// domain added to the `vuryfy` project, DNS configured on GoDaddy) rather
+// than the vuryfy.vercel.app Vercel-assigned domain.
+export const APP_URL = "https://app.vuryfy.com";
 
 export const SITE_NAME = "Vuryfy";
 export const SITE_TAGLINE = "Verify anything before you believe it.";

@@ -63,6 +63,43 @@ export default function PrivacyPage() {
         </section>
 
         <section>
+          <h2 className="text-lg font-semibold text-slate-900">
+            AI-assisted analysis
+          </h2>
+          <p className="mt-2">
+            To evaluate what you submit, Vuryfy sends it to Google&apos;s
+            Gemini API for analysis and, for text and link checks, to
+            Tavily&apos;s search API to gather supporting evidence. These
+            providers process your content only to return a result to
+            Vuryfy — they are not third-party services you interact with
+            directly, and we don&apos;t use them to build any kind of
+            profile about you.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-semibold text-slate-900">
+            Automated safety checks
+          </h2>
+          <p className="mt-2">
+            Every image, audio clip, and video you submit is run through an
+            automated check before it&apos;s analyzed. Anything that matches
+            known illegal content — such as child sexual abuse material — is
+            blocked from processing, is never viewed by anyone at Vuryfy, and
+            is set aside so we can act on it, including reporting it to the
+            appropriate authorities.
+          </p>
+          <p className="mt-2">
+            In the interest of being upfront: this check is fully built into
+            our processing pipeline, but as of this writing it is not yet
+            connected to an external database of known illegal content, so it
+            has nothing to match against today. We are working on connecting
+            it to an industry-standard provider, and will update this page
+            once that&apos;s live.
+          </p>
+        </section>
+
+        <section>
           <h2 className="text-lg font-semibold text-slate-900">Questions</h2>
           <p className="mt-2">
             If you have questions about how your data is handled, reach us

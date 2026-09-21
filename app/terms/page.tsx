@@ -72,8 +72,37 @@ export default function TermsPage() {
             <a href="/pricing" className="font-medium text-slate-900 hover:text-slate-700">
               pricing page
             </a>
-            . Billing is not yet active while the product is in development;
-            final billing terms will be published here once it is.
+            . Real payment processing is not yet active while the product is
+            in development; final billing terms will be published here once
+            it is. The refund rules below reflect how billing is designed to
+            work and already govern how credits are handled today.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-semibold text-slate-900">Refunds</h2>
+          <p className="mt-2">
+            Subscription payments are non-refundable. If you cancel, you keep
+            access through the end of the period you&apos;ve already paid for —
+            you just won&apos;t be charged again after that. Your plan&apos;s
+            monthly Quick Check and Deep Investigation allowance doesn&apos;t
+            roll over and expires at the end of each billing cycle, used or
+            not. Top-up credits, if you buy them separately from a plan, are
+            also non-refundable and expire at the end of the month you bought
+            them in.
+          </p>
+          <p className="mt-2">
+            A verification that completes and returns a result — including an
+            &quot;Unverified&quot; or inconclusive one — uses a credit; an
+            inconclusive result is still a real answer, not a failure. If a
+            check doesn&apos;t complete because of a problem on our end (a
+            timeout, a provider outage, a technical error) rather than
+            because the evidence was inconclusive, the credit is returned to
+            your balance automatically — you don&apos;t need to ask.
+          </p>
+          <p className="mt-2">
+            Switching your phone number means switching accounts — plans and
+            balances don&apos;t transfer between accounts automatically.
           </p>
         </section>
 

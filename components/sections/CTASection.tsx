@@ -8,8 +8,8 @@ export function CTASection() {
           Stop guessing. Start verifying.
         </h2>
         <p className="mx-auto mt-3 max-w-xl text-base text-slate-300">
-          Create your free account and check your first claim, link, photo,
-          voice note, or video in minutes.
+          Sign up and check your first claim, link, photo, voice note, or
+          video in minutes — your first 5 Quick Checks are free.
         </p>
         <a
           href={APP_URL}

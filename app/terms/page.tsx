@@ -72,10 +72,14 @@ export default function TermsPage() {
             <a href="/pricing" className="font-medium text-slate-900 hover:text-slate-700">
               pricing page
             </a>
-            . Real payment processing is not yet active while the product is
-            in development; final billing terms will be published here once
-            it is. The refund rules below reflect how billing is designed to
-            work and already govern how credits are handled today.
+            . The 5 free Quick Checks are a one-time introductory allowance
+            for your first month on a paid plan only — they don&apos;t repeat
+            in later months, and your plan&apos;s regular monthly allowance
+            takes over from month two onward. Real payment processing is not
+            yet active while the product is in development; final billing
+            terms will be published here once it is. The refund rules below
+            reflect how billing is designed to work and already govern how
+            credits are handled today.
           </p>
         </section>
 

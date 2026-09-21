@@ -21,7 +21,7 @@ export const PLANS: Plan[] = [
     period: "/month",
     tagline: "Great for everyday checking.",
     firstMonth: "5 free Quick Checks in your first month",
-    ongoing: "30 Quick Checks + 2 Deep Investigations every month after",
+    ongoing: "30 Quick Checks + 2 Deep Investigations per month, active from day one",
     features: [
       "All six verification types",
       "Submit from the app",
@@ -35,7 +35,7 @@ export const PLANS: Plan[] = [
     period: "/month",
     tagline: "For power users and small teams.",
     firstMonth: "5 free Quick Checks in your first month",
-    ongoing: "75 Quick Checks + 5 Deep Investigations every month after",
+    ongoing: "75 Quick Checks + 5 Deep Investigations per month, active from day one",
     features: [
       "Everything in Starter",
       "More than double the monthly checks",

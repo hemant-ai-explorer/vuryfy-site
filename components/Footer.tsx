@@ -54,7 +54,7 @@ export function Footer() {
                   href={`mailto:${CONTACT_EMAIL}`}
                   className="hover:text-slate-900"
                 >
-                  Contact
+                  Contact us at {CONTACT_EMAIL}
                 </a>
               </li>
             </ul>

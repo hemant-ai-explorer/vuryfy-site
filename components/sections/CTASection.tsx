@@ -9,7 +9,7 @@ export function CTASection() {
         </h2>
         <p className="mx-auto mt-3 max-w-xl text-base text-slate-300">
           Sign up and check your first claim, link, photo, voice note, or
-          video in minutes — your first 5 Quick Checks are free.
+          video in minutes.
         </p>
         <a
           href={APP_URL}

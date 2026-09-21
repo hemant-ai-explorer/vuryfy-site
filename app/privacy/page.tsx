@@ -16,13 +16,6 @@ export default function PrivacyPage() {
         Last updated {new Date().toLocaleDateString("en-IN", { year: "numeric", month: "long", day: "numeric" })}
       </p>
 
-      <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
-        This page is a plain-language overview of how Vuryfy is designed to
-        handle your content, written while the product is still in
-        development. It is not a final, legally-reviewed privacy policy —
-        that will be published, and linked from here, before public launch.
-      </div>
-
       <div className="mt-10 space-y-8 text-sm leading-relaxed text-slate-700">
         <section>
           <h2 className="text-lg font-semibold text-slate-900">

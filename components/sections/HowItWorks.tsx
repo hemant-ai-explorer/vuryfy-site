@@ -31,7 +31,7 @@ export function HowItWorks() {
 
       <div className="mt-14 grid gap-8 sm:grid-cols-3">
         {steps.map((s) => (
-          <div key={s.number} className="relative">
+          <div key={s.number} className="relative text-center">
             <div className="mx-auto flex h-11 w-11 items-center justify-center rounded-full bg-slate-900 text-base font-semibold text-white">
               {s.number}
             </div>

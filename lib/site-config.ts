@@ -1,4 +1,4 @@
-// Central place for the handful of values this marketing site needs to
+﻿// Central place for the handful of values this marketing site needs to
 // point at the real product. The app itself lives in a separate Vercel
 // project/repo (see architecture-decisions.md's "never blur the Vuryfy
 // project line" rule) — this site only ever links out to it, never embeds
@@ -22,6 +22,17 @@ export const SITE_TAGLINE = "Verify anything before you believe it.";
 
 // A real, monitored inbox (Zoho Mail, free plan) — updated Sept 20, 2026.
 export const CONTACT_EMAIL = "info@vuryfy.com";
+
+// Added Oct 9, 2026 — a production-credentials partner (Decentro) flagged
+// that the site had no phone number or business address listed, which
+// their risk review needed to verify Vuryfy Technologies as a real,
+// reachable business. CONTACT_PHONE_DISPLAY is the formatted version shown
+// on the page; CONTACT_PHONE_TEL is the digits-only version used in the
+// tel: link. Address is the Udyam-registered location (the Gomti Nagar
+// commercial space — see business-ops-2026-09-20.md).
+export const CONTACT_PHONE_DISPLAY = "+91 84232 36461";
+export const CONTACT_PHONE_TEL = "+918423236461";
+export const CONTACT_ADDRESS = "C 3/177, Vijayant Khand, Gomti Nagar, Lucknow, UP - 226010";
 
 export const SUPPORTED_LANGUAGES = [
   "English",

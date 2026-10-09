@@ -1,6 +1,11 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Logo } from "./Logo";
-import { CONTACT_EMAIL } from "@/lib/site-config";
+import {
+  CONTACT_EMAIL,
+  CONTACT_PHONE_DISPLAY,
+  CONTACT_PHONE_TEL,
+  CONTACT_ADDRESS,
+} from "@/lib/site-config";
 
 export function Footer() {
   return (
@@ -12,6 +17,18 @@ export function Footer() {
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-slate-600">
               Evidence-backed fact-checking for text, links, QR codes, images,
               audio, and video.
+            </p>
+            {/* Added Oct 9, 2026 — phone and registered business address,
+                requested by a production-credentials partner (Decentro)
+                during their risk review so Vuryfy Technologies shows up as
+                a real, reachable business on its own site. */}
+            <p className="mt-4 text-sm text-slate-600">
+              <a href={`tel:${CONTACT_PHONE_TEL}`} className="hover:text-slate-900">
+                {CONTACT_PHONE_DISPLAY}
+              </a>
+            </p>
+            <p className="mt-1 max-w-sm text-sm leading-relaxed text-slate-600">
+              {CONTACT_ADDRESS}
             </p>
           </div>
 

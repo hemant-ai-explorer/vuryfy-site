@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     q: "Do I need to add a payment method to sign up?",
-    a: "Yes — a payment method is required when you create your account. Your first 5 Quick Checks are free; you're charged as soon as you use a 6th Quick Check or your first Deep Investigation, whichever comes first. If you don't use them all, you're still charged automatically once your first month ends and your next cycle begins.",
+    a: "No. Signing up just takes your phone number — no card needed. You're only asked to add a payment method when you use your 6th Quick Check, run your first Deep Investigation, or your free first month ends, whichever comes first.",
   },
 ];
 

@@ -47,4 +47,4 @@ export const PLANS: Plan[] = [
 ];
 
 export const PLAN_NOTE =
-  "Allowances renew each month and don't roll over. A payment method is required to create your account — you're charged as soon as you go past your 5 free Quick Checks or run a Deep Investigation, or automatically when your first month ends if you haven't.";
+  "Allowances renew each month and don't roll over. Sign up with just your phone number — no payment method needed until you use your 6th Quick Check, run a Deep Investigation, or your first month ends, whichever comes first.";

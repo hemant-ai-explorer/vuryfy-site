@@ -9,7 +9,7 @@ export function PricingPreview() {
           Simple, monthly pricing
         </h2>
         <p className="mt-3 text-base text-slate-600">
-          Two plans, no hidden per-check fees.
+          One simple plan, no hidden per-check fees.
         </p>
       </div>
 
@@ -22,7 +22,7 @@ export function PricingPreview() {
           href="/pricing"
           className="text-sm font-semibold text-slate-900 hover:text-slate-700"
         >
-          Compare full plan details →
+          See full plan details →
         </Link>
       </div>
     </section>

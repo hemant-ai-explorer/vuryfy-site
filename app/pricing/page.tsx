@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     q: "What happens if I use up my checks for the month?",
-    a: "Your allowance renews each month and doesn't carry over unused checks. If you regularly need more, the Power plan gives you a larger monthly allowance.",
+    a: "Your allowance renews each month and doesn't carry over unused checks.",
   },
   {
     q: "Is my data private?",

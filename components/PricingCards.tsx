@@ -4,7 +4,11 @@ import { PLANS, PLAN_NOTE } from "@/lib/plans";
 export function PricingCards({ compact = false }: { compact?: boolean }) {
   return (
     <div>
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div
+        className={`grid gap-6 ${
+          PLANS.length > 1 ? "sm:grid-cols-2" : "mx-auto max-w-sm"
+        }`}
+      >
         {PLANS.map((plan) => (
           <div
             key={plan.name}

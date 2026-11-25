@@ -10,6 +10,11 @@
 // (supabase/migrations/0028_single_plan_launch.sql in the frontend repo).
 // Its data below is kept commented out, not deleted, so re-adding it later
 // is a one-line uncomment, not a rebuild from scratch.
+//
+// Nov 25, 2026 — repriced again: ₹99 → ₹49/month. User's explicit call:
+// "i want the plan to be 49/month. just this one plan." Matches
+// supabase/migrations/0031_starter_plan_49.sql in the frontend repo (the
+// plan's internal code stays plan_99 there too — only the price changed).
 export type Plan = {
   name: string;
   price: string;
@@ -24,7 +29,7 @@ export type Plan = {
 export const PLANS: Plan[] = [
   {
     name: "Starter",
-    price: "₹99",
+    price: "₹49",
     period: "/month",
     tagline: "Great for everyday checking.",
     firstMonth: "5 free Quick Checks in your first month",
